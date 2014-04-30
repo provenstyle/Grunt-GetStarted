@@ -16,11 +16,6 @@ module.exports = function(grunt){
 					livereload: 37000
 				}
 			}
-		},
-		clean:{
-			logs:{
-				src: ['c:/WatchGuardVideo/logs']
-			}
 		}
 	});
 
@@ -100,6 +95,5 @@ module.exports = function(grunt){
 	});
 
 	grunt.loadNpmTasks('grunt-contrib-watch');
-	grunt.loadNpmTasks('grunt-contrib-clean');
 };
  
